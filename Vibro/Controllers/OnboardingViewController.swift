@@ -54,7 +54,12 @@ class OnboardingViewController: UIViewController {
                 
             }
             let skipTrialAction = UIAlertAction(title: "Skip", style: .default) { action in
-                self.dismiss(animated: true, completion: nil)
+        
+                self.dismiss(animated: true) {
+                    let welcomeAlertVC = WelcomeAlertViewController.loadFromNib()
+                    welcomeAlertVC.modalPresentationStyle = .overFullScreen
+                    UIApplication.topViewController()?.present(welcomeAlertVC, animated: true, completion: nil)
+                }
             }
             
             alert.addAction(startTrialAction)

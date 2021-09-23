@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E51949CB26FB629500154A48 /* WelcomeAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51949CA26FB629500154A48 /* WelcomeAlert.xib */; };
-		E51949CD26FB69E200154A48 /* WelcomeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51949CC26FB69E200154A48 /* WelcomeAlert.swift */; };
+		E51949CB26FB629500154A48 /* WelcomeAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51949CA26FB629500154A48 /* WelcomeAlertViewController.xib */; };
+		E51949CD26FB69E200154A48 /* WelcomeAlertVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51949CC26FB69E200154A48 /* WelcomeAlertVIewController.swift */; };
 		E5202C3826F899AB00B48AA7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5202C3726F899AB00B48AA7 /* SettingsViewController.swift */; };
 		E5202C3C26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5202C3A26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift */; };
 		E5202C3D26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5202C3B26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib */; };
@@ -33,7 +33,7 @@
 		E5ACE69926F3574E0011F441 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69226F3574D0011F441 /* UIView+Extension.swift */; };
 		E5ACE69A26F3574E0011F441 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69326F3574E0011F441 /* UITableView+Extension.swift */; };
 		E5ACE69B26F3574E0011F441 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69426F3574E0011F441 /* UIImage+Extension.swift */; };
-		E5ACE69D26F3574E0011F441 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69626F3574E0011F441 /* UIViewController+Extension.swift */; };
+		E5ACE69D26F3574E0011F441 /* UIViewController+UIApp+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69626F3574E0011F441 /* UIViewController+UIApp+Extension.swift */; };
 		E5ACE69E26F3574E0011F441 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69726F3574E0011F441 /* UILabel+Extension.swift */; };
 		E5ACE69F26F3574E0011F441 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69826F3574E0011F441 /* UICollectionView+Extension.swift */; };
 		E5ACE6A726F3885A0011F441 /* intensityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE6A526F3885A0011F441 /* intensityCell.swift */; };
@@ -62,8 +62,8 @@
 		51915F00CF0FE8ABE058C475 /* Pods_Vibro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vibro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		886E1D03ADB847BC9CE67001 /* Pods-Vibro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vibro.release.xcconfig"; path = "Target Support Files/Pods-Vibro/Pods-Vibro.release.xcconfig"; sourceTree = "<group>"; };
 		BD1C80DE0A1E15579855F762 /* Pods-Vibro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vibro.debug.xcconfig"; path = "Target Support Files/Pods-Vibro/Pods-Vibro.debug.xcconfig"; sourceTree = "<group>"; };
-		E51949CA26FB629500154A48 /* WelcomeAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeAlert.xib; sourceTree = "<group>"; };
-		E51949CC26FB69E200154A48 /* WelcomeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAlert.swift; sourceTree = "<group>"; };
+		E51949CA26FB629500154A48 /* WelcomeAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeAlertViewController.xib; sourceTree = "<group>"; };
+		E51949CC26FB69E200154A48 /* WelcomeAlertVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAlertVIewController.swift; sourceTree = "<group>"; };
 		E5202C3726F899AB00B48AA7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E5202C3A26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptySettingsCellTableViewCell.swift; sourceTree = "<group>"; };
 		E5202C3B26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = emptySettingsCellTableViewCell.xib; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		E5ACE69226F3574D0011F441 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		E5ACE69326F3574E0011F441 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		E5ACE69426F3574E0011F441 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		E5ACE69626F3574E0011F441 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE69626F3574E0011F441 /* UIViewController+UIApp+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIApp+Extension.swift"; sourceTree = "<group>"; };
 		E5ACE69726F3574E0011F441 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		E5ACE69826F3574E0011F441 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		E5ACE6A526F3885A0011F441 /* intensityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intensityCell.swift; sourceTree = "<group>"; };
@@ -155,8 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				E51949C526FB618B00154A48 /* cells */,
-				E51949CA26FB629500154A48 /* WelcomeAlert.xib */,
-				E51949CC26FB69E200154A48 /* WelcomeAlert.swift */,
+				E51949CA26FB629500154A48 /* WelcomeAlertViewController.xib */,
+				E51949CC26FB69E200154A48 /* WelcomeAlertVIewController.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 				E5ACE69726F3574E0011F441 /* UILabel+Extension.swift */,
 				E5ACE69326F3574E0011F441 /* UITableView+Extension.swift */,
 				E5ACE69226F3574D0011F441 /* UIView+Extension.swift */,
-				E5ACE69626F3574E0011F441 /* UIViewController+Extension.swift */,
+				E5ACE69626F3574E0011F441 /* UIViewController+UIApp+Extension.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -361,7 +361,7 @@
 				E577FE3326F3447D00356BDC /* turnOnVibroCell.xib in Resources */,
 				E5B30F6526EF5A590080F858 /* SFProDisplay-Regular.ttf in Resources */,
 				E551294226F503F7007F0FC0 /* AHAP in Resources */,
-				E51949CB26FB629500154A48 /* WelcomeAlert.xib in Resources */,
+				E51949CB26FB629500154A48 /* WelcomeAlertViewController.xib in Resources */,
 				E5F7F89226F9E40F00933B0F /* type2SettingsCell.xib in Resources */,
 				E56FAE3326F3A0D0004D0782 /* speedCell.xib in Resources */,
 				E5B30F6C26EF5BEC0080F858 /* SF-Pro-Text-Regular.otf in Resources */,
@@ -432,8 +432,8 @@
 				E5F7F88D26F8B3D400933B0F /* type1SettingsCell.swift in Sources */,
 				E5ACE69B26F3574E0011F441 /* UIImage+Extension.swift in Sources */,
 				E5B30F6E26F0B0BA0080F858 /* OnboardingViewController.swift in Sources */,
-				E5ACE69D26F3574E0011F441 /* UIViewController+Extension.swift in Sources */,
-				E51949CD26FB69E200154A48 /* WelcomeAlert.swift in Sources */,
+				E5ACE69D26F3574E0011F441 /* UIViewController+UIApp+Extension.swift in Sources */,
+				E51949CD26FB69E200154A48 /* WelcomeAlertVIewController.swift in Sources */,
 				E5B30F4A26EF4DFE0080F858 /* AppDelegate.swift in Sources */,
 				E56FAE3A26F3AAD4004D0782 /* modeCell.swift in Sources */,
 				E5ACE69926F3574E0011F441 /* UIView+Extension.swift in Sources */,

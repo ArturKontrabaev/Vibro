@@ -135,12 +135,10 @@ class DashboardViewController: UIViewController, UITableViewDelegate {
     }
     
     func firstLaunch(){
-        // let onboardingVC = (storyboard?.instantiateViewController(identifier: "oboardingVC"))!
-
-       // present(onboardingVC, animated: true, completion: nil)
-
-        WelcomeAlert.instance.showAlert()
-  
+         
+        let onboardingVC = (storyboard?.instantiateViewController(identifier: "oboardingVC"))!
+        onboardingVC.modalPresentationStyle = .overFullScreen
+        present(onboardingVC, animated: true, completion: nil)
 
     }
     
