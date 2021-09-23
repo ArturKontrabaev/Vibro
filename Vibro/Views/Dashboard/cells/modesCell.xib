@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="modesCell" rowHeight="623" id="KGk-i7-Jjw" customClass="modesCell" customModule="Vibro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="623"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="435" height="623"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxa-HJ-Aj8">
+                        <rect key="frame" x="23" y="30" width="389" height="593"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="3Na-yM-qK3">
+                                <rect key="frame" x="0.0" y="173" width="389" height="420"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="DXM-In-5Bm"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="suq-UW-1Q9">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="modesLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGf-ml-LTw">
+                                <rect key="frame" x="0.0" y="0.0" width="389" height="157"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3Na-yM-qK3" secondAttribute="trailing" id="MAY-Xx-kqb"/>
+                            <constraint firstAttribute="trailing" secondItem="TGf-ml-LTw" secondAttribute="trailing" id="MJ3-kg-4eN"/>
+                            <constraint firstItem="TGf-ml-LTw" firstAttribute="top" secondItem="cxa-HJ-Aj8" secondAttribute="top" id="Zdk-fl-s5w"/>
+                            <constraint firstItem="TGf-ml-LTw" firstAttribute="leading" secondItem="cxa-HJ-Aj8" secondAttribute="leading" id="cmw-dc-WiD"/>
+                            <constraint firstAttribute="bottom" secondItem="3Na-yM-qK3" secondAttribute="bottom" id="pWt-9j-vK0"/>
+                            <constraint firstItem="3Na-yM-qK3" firstAttribute="top" secondItem="TGf-ml-LTw" secondAttribute="bottom" constant="16" id="rL6-zS-Fw7"/>
+                            <constraint firstItem="3Na-yM-qK3" firstAttribute="leading" secondItem="cxa-HJ-Aj8" secondAttribute="leading" id="tIp-ul-1u5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cxa-HJ-Aj8" secondAttribute="trailing" constant="23" id="7U2-ev-cOh"/>
+                    <constraint firstItem="cxa-HJ-Aj8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="Pgd-7P-wE5"/>
+                    <constraint firstItem="cxa-HJ-Aj8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="Qwf-8H-O8c"/>
+                    <constraint firstAttribute="bottom" secondItem="cxa-HJ-Aj8" secondAttribute="bottom" id="Sg2-wt-wQp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="modesCollectionView" destination="3Na-yM-qK3" id="Vol-Xd-aA7"/>
+                <outlet property="modesLabel" destination="TGf-ml-LTw" id="kuu-Ih-f4B"/>
+            </connections>
+            <point key="canvasLocation" x="7.9710144927536239" y="323.10267857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="speedCell" rowHeight="118" id="KGk-i7-Jjw" customClass="speedCell" customModule="Vibro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="speedLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdP-gc-Zm3">
+                        <rect key="frame" x="23" y="30" width="88.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="minLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10l-lR-u8M">
+                        <rect key="frame" x="23" y="66.5" width="69" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="maxLabel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJn-Ob-GhL">
+                        <rect key="frame" x="251.5" y="66.5" width="73.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <slider opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="3HY-rP-Lgc">
+                        <rect key="frame" x="21" y="72" width="306" height="34"/>
+                        <connections>
+                            <action selector="speedSliderMove:" destination="KGk-i7-Jjw" eventType="valueChanged" id="elk-Eh-PUC"/>
+                        </connections>
+                    </slider>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gdP-gc-Zm3" firstAttribute="leading" secondItem="10l-lR-u8M" secondAttribute="leading" id="9fU-T9-HFi"/>
+                    <constraint firstItem="3HY-rP-Lgc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="FxP-bc-Hxm"/>
+                    <constraint firstAttribute="trailing" secondItem="3HY-rP-Lgc" secondAttribute="trailing" constant="23" id="JfR-VD-viE"/>
+                    <constraint firstItem="3HY-rP-Lgc" firstAttribute="top" secondItem="OJn-Ob-GhL" secondAttribute="bottom" constant="-15" id="Tsy-OW-Iug"/>
+                    <constraint firstAttribute="bottom" secondItem="3HY-rP-Lgc" secondAttribute="bottom" constant="13" id="UO0-X5-T27"/>
+                    <constraint firstItem="10l-lR-u8M" firstAttribute="leading" secondItem="3HY-rP-Lgc" secondAttribute="leading" id="ep8-9i-B4A"/>
+                    <constraint firstItem="OJn-Ob-GhL" firstAttribute="trailing" secondItem="3HY-rP-Lgc" secondAttribute="trailing" id="gGD-tg-xr5"/>
+                    <constraint firstItem="gdP-gc-Zm3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="qud-Nc-V8S"/>
+                    <constraint firstItem="3HY-rP-Lgc" firstAttribute="top" secondItem="10l-lR-u8M" secondAttribute="bottom" constant="-15" id="uZ0-9p-dJH"/>
+                    <constraint firstItem="10l-lR-u8M" firstAttribute="top" secondItem="gdP-gc-Zm3" secondAttribute="bottom" constant="16" id="wPI-Yc-atn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="maxLabel" destination="OJn-Ob-GhL" id="kcV-Ey-YGR"/>
+                <outlet property="minLabel" destination="10l-lR-u8M" id="RhT-8Z-Fc5"/>
+                <outlet property="speedLabel" destination="gdP-gc-Zm3" id="lvO-eG-FO3"/>
+                <outlet property="speedSlider" destination="3HY-rP-Lgc" id="rNJ-RZ-STN"/>
+            </connections>
+            <point key="canvasLocation" x="50.724637681159422" y="130.58035714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

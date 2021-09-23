@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E51949CB26FB629500154A48 /* WelcomeAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51949CA26FB629500154A48 /* WelcomeAlert.xib */; };
+		E51949CD26FB69E200154A48 /* WelcomeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51949CC26FB69E200154A48 /* WelcomeAlert.swift */; };
+		E5202C3826F899AB00B48AA7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5202C3726F899AB00B48AA7 /* SettingsViewController.swift */; };
+		E5202C3C26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5202C3A26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift */; };
+		E5202C3D26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5202C3B26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib */; };
+		E52EAC9826FA1AFD00B30858 /* onb1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E52EAC9726FA1AFC00B30858 /* onb1.mp4 */; };
+		E550EA6626FBB47400B2AF92 /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F6726EF5AE80080F858 /* SFProDisplay-Bold.ttf */; };
+		E551294226F503F7007F0FC0 /* AHAP in Resources */ = {isa = PBXBuildFile; fileRef = E551294126F503F7007F0FC0 /* AHAP */; };
+		E5687ADD26FBB28000BE6B3F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5687AD826FBB28000BE6B3F /* String+Extension.swift */; };
+		E5687ADE26FBB28000BE6B3F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5687AD926FBB28000BE6B3F /* Date+Extension.swift */; };
+		E5687ADF26FBB28000BE6B3F /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5687ADA26FBB28000BE6B3F /* Int+Extension.swift */; };
+		E5687AE026FBB28000BE6B3F /* NotificationName+Extesnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5687ADB26FBB28000BE6B3F /* NotificationName+Extesnion.swift */; };
+		E5687AE126FBB28000BE6B3F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5687ADC26FBB28000BE6B3F /* NSObject+Extension.swift */; };
+		E56FAE3226F3A0D0004D0782 /* speedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FAE3026F3A0D0004D0782 /* speedCell.swift */; };
+		E56FAE3326F3A0D0004D0782 /* speedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56FAE3126F3A0D0004D0782 /* speedCell.xib */; };
+		E56FAE3626F3A6F6004D0782 /* modesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FAE3426F3A6F6004D0782 /* modesCell.swift */; };
+		E56FAE3726F3A6F6004D0782 /* modesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56FAE3526F3A6F6004D0782 /* modesCell.xib */; };
+		E56FAE3A26F3AAD4004D0782 /* modeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FAE3826F3AAD4004D0782 /* modeCell.swift */; };
+		E56FAE3B26F3AAD4004D0782 /* modeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56FAE3926F3AAD4004D0782 /* modeCell.xib */; };
+		E577FE2F26F3384E00356BDC /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E577FE2E26F3384E00356BDC /* DashboardViewController.swift */; };
+		E577FE3226F3447D00356BDC /* turnOnVibroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E577FE3026F3447D00356BDC /* turnOnVibroCell.swift */; };
+		E577FE3326F3447D00356BDC /* turnOnVibroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E577FE3126F3447D00356BDC /* turnOnVibroCell.xib */; };
+		E5ACE66E26F3512C0011F441 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE66D26F3512C0011F441 /* Constants.swift */; };
+		E5ACE69926F3574E0011F441 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69226F3574D0011F441 /* UIView+Extension.swift */; };
+		E5ACE69A26F3574E0011F441 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69326F3574E0011F441 /* UITableView+Extension.swift */; };
+		E5ACE69B26F3574E0011F441 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69426F3574E0011F441 /* UIImage+Extension.swift */; };
+		E5ACE69D26F3574E0011F441 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69626F3574E0011F441 /* UIViewController+Extension.swift */; };
+		E5ACE69E26F3574E0011F441 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69726F3574E0011F441 /* UILabel+Extension.swift */; };
+		E5ACE69F26F3574E0011F441 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE69826F3574E0011F441 /* UICollectionView+Extension.swift */; };
+		E5ACE6A726F3885A0011F441 /* intensityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACE6A526F3885A0011F441 /* intensityCell.swift */; };
+		E5ACE6A826F3885A0011F441 /* intensityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5ACE6A626F3885A0011F441 /* intensityCell.xib */; };
+		E5AF36BF26FA1E81005763D7 /* onb2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5AF36BD26FA1E80005763D7 /* onb2.mp4 */; };
+		E5AF36C026FA1E81005763D7 /* onb3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5AF36BE26FA1E81005763D7 /* onb3.mp4 */; };
+		E5B30F4A26EF4DFE0080F858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B30F4926EF4DFE0080F858 /* AppDelegate.swift */; };
+		E5B30F4C26EF4DFE0080F858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B30F4B26EF4DFE0080F858 /* SceneDelegate.swift */; };
+		E5B30F4E26EF4DFE0080F858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B30F4D26EF4DFE0080F858 /* ViewController.swift */; };
+		E5B30F5126EF4DFE0080F858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F4F26EF4DFE0080F858 /* Main.storyboard */; };
+		E5B30F5426EF4DFE0080F858 /* Vibro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5B30F5226EF4DFE0080F858 /* Vibro.xcdatamodeld */; };
+		E5B30F5626EF4E000080F858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F5526EF4E000080F858 /* Assets.xcassets */; };
+		E5B30F5926EF4E000080F858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F5726EF4E000080F858 /* LaunchScreen.storyboard */; };
+		E5B30F6526EF5A590080F858 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F6426EF5A3C0080F858 /* SFProDisplay-Regular.ttf */; };
+		E5B30F6A26EF5BBD0080F858 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F6926EF5BBD0080F858 /* Roboto-Regular.ttf */; };
+		E5B30F6C26EF5BEC0080F858 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5B30F6B26EF5BEC0080F858 /* SF-Pro-Text-Regular.otf */; };
+		E5B30F6E26F0B0BA0080F858 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B30F6D26F0B0BA0080F858 /* OnboardingViewController.swift */; };
+		E5F7F88D26F8B3D400933B0F /* type1SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F7F88B26F8B3D400933B0F /* type1SettingsCell.swift */; };
+		E5F7F88E26F8B3D400933B0F /* type1SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F7F88C26F8B3D400933B0F /* type1SettingsCell.xib */; };
+		E5F7F89126F9E40F00933B0F /* type2SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F7F88F26F9E40F00933B0F /* type2SettingsCell.swift */; };
+		E5F7F89226F9E40F00933B0F /* type2SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F7F89026F9E40F00933B0F /* type2SettingsCell.xib */; };
+		F500612C6247F7757578E1EA /* Pods_Vibro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51915F00CF0FE8ABE058C475 /* Pods_Vibro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51915F00CF0FE8ABE058C475 /* Pods_Vibro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vibro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		886E1D03ADB847BC9CE67001 /* Pods-Vibro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vibro.release.xcconfig"; path = "Target Support Files/Pods-Vibro/Pods-Vibro.release.xcconfig"; sourceTree = "<group>"; };
+		BD1C80DE0A1E15579855F762 /* Pods-Vibro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vibro.debug.xcconfig"; path = "Target Support Files/Pods-Vibro/Pods-Vibro.debug.xcconfig"; sourceTree = "<group>"; };
+		E51949CA26FB629500154A48 /* WelcomeAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeAlert.xib; sourceTree = "<group>"; };
+		E51949CC26FB69E200154A48 /* WelcomeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAlert.swift; sourceTree = "<group>"; };
+		E5202C3726F899AB00B48AA7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E5202C3A26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptySettingsCellTableViewCell.swift; sourceTree = "<group>"; };
+		E5202C3B26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = emptySettingsCellTableViewCell.xib; sourceTree = "<group>"; };
+		E52EAC9726FA1AFC00B30858 /* onb1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onb1.mp4; sourceTree = "<group>"; };
+		E551294126F503F7007F0FC0 /* AHAP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AHAP; sourceTree = "<group>"; };
+		E5687AD826FBB28000BE6B3F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E5687AD926FBB28000BE6B3F /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		E5687ADA26FBB28000BE6B3F /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		E5687ADB26FBB28000BE6B3F /* NotificationName+Extesnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extesnion.swift"; sourceTree = "<group>"; };
+		E5687ADC26FBB28000BE6B3F /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		E56FAE3026F3A0D0004D0782 /* speedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedCell.swift; sourceTree = "<group>"; };
+		E56FAE3126F3A0D0004D0782 /* speedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = speedCell.xib; sourceTree = "<group>"; };
+		E56FAE3426F3A6F6004D0782 /* modesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modesCell.swift; sourceTree = "<group>"; };
+		E56FAE3526F3A6F6004D0782 /* modesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = modesCell.xib; sourceTree = "<group>"; };
+		E56FAE3826F3AAD4004D0782 /* modeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeCell.swift; sourceTree = "<group>"; };
+		E56FAE3926F3AAD4004D0782 /* modeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = modeCell.xib; sourceTree = "<group>"; };
+		E577FE2E26F3384E00356BDC /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		E577FE3026F3447D00356BDC /* turnOnVibroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turnOnVibroCell.swift; sourceTree = "<group>"; };
+		E577FE3126F3447D00356BDC /* turnOnVibroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = turnOnVibroCell.xib; sourceTree = "<group>"; };
+		E5ACE66D26F3512C0011F441 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E5ACE69226F3574D0011F441 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE69326F3574E0011F441 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE69426F3574E0011F441 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE69626F3574E0011F441 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE69726F3574E0011F441 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE69826F3574E0011F441 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		E5ACE6A526F3885A0011F441 /* intensityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intensityCell.swift; sourceTree = "<group>"; };
+		E5ACE6A626F3885A0011F441 /* intensityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = intensityCell.xib; sourceTree = "<group>"; };
+		E5AF36BD26FA1E80005763D7 /* onb2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onb2.mp4; sourceTree = "<group>"; };
+		E5AF36BE26FA1E81005763D7 /* onb3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onb3.mp4; sourceTree = "<group>"; };
+		E5B30F4626EF4DFE0080F858 /* Vibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B30F4926EF4DFE0080F858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5B30F4B26EF4DFE0080F858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E5B30F4D26EF4DFE0080F858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5B30F5026EF4DFE0080F858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5B30F5326EF4DFE0080F858 /* Vibro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vibro.xcdatamodel; sourceTree = "<group>"; };
+		E5B30F5526EF4E000080F858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5B30F5826EF4E000080F858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5B30F5A26EF4E000080F858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B30F6426EF5A3C0080F858 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Regular.ttf"; path = "../../../../../Downloads/SFPro/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		E5B30F6726EF5AE80080F858 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Bold.ttf"; path = "../../../../../Downloads/SFPro/SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		E5B30F6926EF5BBD0080F858 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E5B30F6B26EF5BEC0080F858 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "../../../../../Downloads/SF Pro Text/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		E5B30F6D26F0B0BA0080F858 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E5F7F88B26F8B3D400933B0F /* type1SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type1SettingsCell.swift; sourceTree = "<group>"; };
+		E5F7F88C26F8B3D400933B0F /* type1SettingsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = type1SettingsCell.xib; sourceTree = "<group>"; };
+		E5F7F88F26F9E40F00933B0F /* type2SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type2SettingsCell.swift; sourceTree = "<group>"; };
+		E5F7F89026F9E40F00933B0F /* type2SettingsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = type2SettingsCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5B30F4326EF4DFE0080F858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F500612C6247F7757578E1EA /* Pods_Vibro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123241B69FCB5C0B6C1A0C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51915F00CF0FE8ABE058C475 /* Pods_Vibro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51949C526FB618B00154A48 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				E577FE3026F3447D00356BDC /* turnOnVibroCell.swift */,
+				E577FE3126F3447D00356BDC /* turnOnVibroCell.xib */,
+				E5ACE6A526F3885A0011F441 /* intensityCell.swift */,
+				E5ACE6A626F3885A0011F441 /* intensityCell.xib */,
+				E56FAE3026F3A0D0004D0782 /* speedCell.swift */,
+				E56FAE3126F3A0D0004D0782 /* speedCell.xib */,
+				E56FAE3426F3A6F6004D0782 /* modesCell.swift */,
+				E56FAE3526F3A6F6004D0782 /* modesCell.xib */,
+				E56FAE3826F3AAD4004D0782 /* modeCell.swift */,
+				E56FAE3926F3AAD4004D0782 /* modeCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		E5202C3926F899D500B48AA7 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E51949C526FB618B00154A48 /* cells */,
+				E51949CA26FB629500154A48 /* WelcomeAlert.xib */,
+				E51949CC26FB69E200154A48 /* WelcomeAlert.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E5202C3E26F89EB200B48AA7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E5202C3A26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift */,
+				E5202C3B26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib */,
+				E5F7F88B26F8B3D400933B0F /* type1SettingsCell.swift */,
+				E5F7F88C26F8B3D400933B0F /* type1SettingsCell.xib */,
+				E5F7F88F26F9E40F00933B0F /* type2SettingsCell.swift */,
+				E5F7F89026F9E40F00933B0F /* type2SettingsCell.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E5ACE66F26F3556C0011F441 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				E5687AD926FBB28000BE6B3F /* Date+Extension.swift */,
+				E5687ADA26FBB28000BE6B3F /* Int+Extension.swift */,
+				E5687ADB26FBB28000BE6B3F /* NotificationName+Extesnion.swift */,
+				E5687ADC26FBB28000BE6B3F /* NSObject+Extension.swift */,
+				E5687AD826FBB28000BE6B3F /* String+Extension.swift */,
+				E5ACE6A026F357520011F441 /* UI */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		E5ACE6A026F357520011F441 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E5ACE69826F3574E0011F441 /* UICollectionView+Extension.swift */,
+				E5ACE69426F3574E0011F441 /* UIImage+Extension.swift */,
+				E5ACE69726F3574E0011F441 /* UILabel+Extension.swift */,
+				E5ACE69326F3574E0011F441 /* UITableView+Extension.swift */,
+				E5ACE69226F3574D0011F441 /* UIView+Extension.swift */,
+				E5ACE69626F3574E0011F441 /* UIViewController+Extension.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E5AF36BC26FA1E69005763D7 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E5AF36BD26FA1E80005763D7 /* onb2.mp4 */,
+				E5AF36BE26FA1E81005763D7 /* onb3.mp4 */,
+				E52EAC9726FA1AFC00B30858 /* onb1.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		E5B30F3D26EF4DFE0080F858 = {
+			isa = PBXGroup;
+			children = (
+				E5AF36BC26FA1E69005763D7 /* Video */,
+				E5B30F4826EF4DFE0080F858 /* Vibro */,
+				E5B30F4726EF4DFE0080F858 /* Products */,
+				FDE7A47531AFB3E9D30AAE7D /* Pods */,
+				123241B69FCB5C0B6C1A0C44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5B30F4726EF4DFE0080F858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5B30F4626EF4DFE0080F858 /* Vibro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5B30F4826EF4DFE0080F858 /* Vibro */ = {
+			isa = PBXGroup;
+			children = (
+				E5ACE66F26F3556C0011F441 /* Ext */,
+				E5B30F4926EF4DFE0080F858 /* AppDelegate.swift */,
+				E5B30F4B26EF4DFE0080F858 /* SceneDelegate.swift */,
+				E5B30F6F26F0B0D00080F858 /* Controllers */,
+				E5B30F7026F0B0E20080F858 /* Views */,
+				E5B30F6226EF5A100080F858 /* fonts */,
+				E551294126F503F7007F0FC0 /* AHAP */,
+				E5B30F5526EF4E000080F858 /* Assets.xcassets */,
+				E5ACE66D26F3512C0011F441 /* Constants.swift */,
+				E5B30F5A26EF4E000080F858 /* Info.plist */,
+				E5B30F5226EF4DFE0080F858 /* Vibro.xcdatamodeld */,
+			);
+			path = Vibro;
+			sourceTree = "<group>";
+		};
+		E5B30F6226EF5A100080F858 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E5B30F6726EF5AE80080F858 /* SFProDisplay-Bold.ttf */,
+				E5B30F6426EF5A3C0080F858 /* SFProDisplay-Regular.ttf */,
+				E5B30F6926EF5BBD0080F858 /* Roboto-Regular.ttf */,
+				E5B30F6B26EF5BEC0080F858 /* SF-Pro-Text-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		E5B30F6F26F0B0D00080F858 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5B30F4D26EF4DFE0080F858 /* ViewController.swift */,
+				E577FE2E26F3384E00356BDC /* DashboardViewController.swift */,
+				E5202C3726F899AB00B48AA7 /* SettingsViewController.swift */,
+				E5B30F6D26F0B0BA0080F858 /* OnboardingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5B30F7026F0B0E20080F858 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5B30F4F26EF4DFE0080F858 /* Main.storyboard */,
+				E5B30F5726EF4E000080F858 /* LaunchScreen.storyboard */,
+				E5202C3926F899D500B48AA7 /* Dashboard */,
+				E5202C3E26F89EB200B48AA7 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDE7A47531AFB3E9D30AAE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD1C80DE0A1E15579855F762 /* Pods-Vibro.debug.xcconfig */,
+				886E1D03ADB847BC9CE67001 /* Pods-Vibro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5B30F4526EF4DFE0080F858 /* Vibro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B30F5D26EF4E000080F858 /* Build configuration list for PBXNativeTarget "Vibro" */;
+			buildPhases = (
+				5147E217DC0EB2CF97990A31 /* [CP] Check Pods Manifest.lock */,
+				E5B30F4226EF4DFE0080F858 /* Sources */,
+				E5B30F4326EF4DFE0080F858 /* Frameworks */,
+				E5B30F4426EF4DFE0080F858 /* Resources */,
+				9950E87D8339D76ED76D1AD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vibro;
+			productName = Vibro;
+			productReference = E5B30F4626EF4DFE0080F858 /* Vibro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5B30F3E26EF4DFE0080F858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E5B30F4526EF4DFE0080F858 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E5B30F4126EF4DFE0080F858 /* Build configuration list for PBXProject "Vibro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5B30F3D26EF4DFE0080F858;
+			productRefGroup = E5B30F4726EF4DFE0080F858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B30F4526EF4DFE0080F858 /* Vibro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5B30F4426EF4DFE0080F858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52EAC9826FA1AFD00B30858 /* onb1.mp4 in Resources */,
+				E5202C3D26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.xib in Resources */,
+				E5B30F5926EF4E000080F858 /* LaunchScreen.storyboard in Resources */,
+				E5ACE6A826F3885A0011F441 /* intensityCell.xib in Resources */,
+				E56FAE3726F3A6F6004D0782 /* modesCell.xib in Resources */,
+				E5B30F6A26EF5BBD0080F858 /* Roboto-Regular.ttf in Resources */,
+				E5F7F88E26F8B3D400933B0F /* type1SettingsCell.xib in Resources */,
+				E550EA6626FBB47400B2AF92 /* SFProDisplay-Bold.ttf in Resources */,
+				E5B30F5626EF4E000080F858 /* Assets.xcassets in Resources */,
+				E5AF36C026FA1E81005763D7 /* onb3.mp4 in Resources */,
+				E577FE3326F3447D00356BDC /* turnOnVibroCell.xib in Resources */,
+				E5B30F6526EF5A590080F858 /* SFProDisplay-Regular.ttf in Resources */,
+				E551294226F503F7007F0FC0 /* AHAP in Resources */,
+				E51949CB26FB629500154A48 /* WelcomeAlert.xib in Resources */,
+				E5F7F89226F9E40F00933B0F /* type2SettingsCell.xib in Resources */,
+				E56FAE3326F3A0D0004D0782 /* speedCell.xib in Resources */,
+				E5B30F6C26EF5BEC0080F858 /* SF-Pro-Text-Regular.otf in Resources */,
+				E56FAE3B26F3AAD4004D0782 /* modeCell.xib in Resources */,
+				E5AF36BF26FA1E81005763D7 /* onb2.mp4 in Resources */,
+				E5B30F5126EF4DFE0080F858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5147E217DC0EB2CF97990A31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vibro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9950E87D8339D76ED76D1AD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vibro/Pods-Vibro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vibro/Pods-Vibro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vibro/Pods-Vibro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5B30F4226EF4DFE0080F858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5687ADE26FBB28000BE6B3F /* Date+Extension.swift in Sources */,
+				E5ACE69F26F3574E0011F441 /* UICollectionView+Extension.swift in Sources */,
+				E5B30F5426EF4DFE0080F858 /* Vibro.xcdatamodeld in Sources */,
+				E577FE2F26F3384E00356BDC /* DashboardViewController.swift in Sources */,
+				E5ACE69A26F3574E0011F441 /* UITableView+Extension.swift in Sources */,
+				E5687AE026FBB28000BE6B3F /* NotificationName+Extesnion.swift in Sources */,
+				E5ACE69E26F3574E0011F441 /* UILabel+Extension.swift in Sources */,
+				E5F7F89126F9E40F00933B0F /* type2SettingsCell.swift in Sources */,
+				E5B30F4E26EF4DFE0080F858 /* ViewController.swift in Sources */,
+				E5F7F88D26F8B3D400933B0F /* type1SettingsCell.swift in Sources */,
+				E5ACE69B26F3574E0011F441 /* UIImage+Extension.swift in Sources */,
+				E5B30F6E26F0B0BA0080F858 /* OnboardingViewController.swift in Sources */,
+				E5ACE69D26F3574E0011F441 /* UIViewController+Extension.swift in Sources */,
+				E51949CD26FB69E200154A48 /* WelcomeAlert.swift in Sources */,
+				E5B30F4A26EF4DFE0080F858 /* AppDelegate.swift in Sources */,
+				E56FAE3A26F3AAD4004D0782 /* modeCell.swift in Sources */,
+				E5ACE69926F3574E0011F441 /* UIView+Extension.swift in Sources */,
+				E5202C3C26F89EAD00B48AA7 /* emptySettingsCellTableViewCell.swift in Sources */,
+				E5687ADD26FBB28000BE6B3F /* String+Extension.swift in Sources */,
+				E56FAE3626F3A6F6004D0782 /* modesCell.swift in Sources */,
+				E5B30F4C26EF4DFE0080F858 /* SceneDelegate.swift in Sources */,
+				E577FE3226F3447D00356BDC /* turnOnVibroCell.swift in Sources */,
+				E5687ADF26FBB28000BE6B3F /* Int+Extension.swift in Sources */,
+				E5202C3826F899AB00B48AA7 /* SettingsViewController.swift in Sources */,
+				E56FAE3226F3A0D0004D0782 /* speedCell.swift in Sources */,
+				E5ACE6A726F3885A0011F441 /* intensityCell.swift in Sources */,
+				E5ACE66E26F3512C0011F441 /* Constants.swift in Sources */,
+				E5687AE126FBB28000BE6B3F /* NSObject+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5B30F4F26EF4DFE0080F858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B30F5026EF4DFE0080F858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5B30F5726EF4E000080F858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5B30F5826EF4E000080F858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5B30F5B26EF4E000080F858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5B30F5C26EF4E000080F858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5B30F5E26EF4E000080F858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1C80DE0A1E15579855F762 /* Pods-Vibro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPU96SNK2F;
+				INFOPLIST_FILE = Vibro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.c00kie.Vibro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E5B30F5F26EF4E000080F858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886E1D03ADB847BC9CE67001 /* Pods-Vibro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPU96SNK2F;
+				INFOPLIST_FILE = Vibro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.c00kie.Vibro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5B30F4126EF4DFE0080F858 /* Build configuration list for PBXProject "Vibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B30F5B26EF4E000080F858 /* Debug */,
+				E5B30F5C26EF4E000080F858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B30F5D26EF4E000080F858 /* Build configuration list for PBXNativeTarget "Vibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B30F5E26EF4E000080F858 /* Debug */,
+				E5B30F5F26EF4E000080F858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5B30F5226EF4DFE0080F858 /* Vibro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5B30F5326EF4DFE0080F858 /* Vibro.xcdatamodel */,
+			);
+			currentVersion = E5B30F5326EF4DFE0080F858 /* Vibro.xcdatamodel */;
+			path = Vibro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5B30F3E26EF4DFE0080F858 /* Project object */;
+}
