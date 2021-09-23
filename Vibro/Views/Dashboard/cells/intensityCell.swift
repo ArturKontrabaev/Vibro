@@ -35,8 +35,6 @@ class intensityCell: UITableViewCell {
             softButton.backgroundColor = K.deselectedColor
             mediumButton.backgroundColor = K.deselectedColor
             hardButton.backgroundColor = K.selectedColor
-            
-            
         }
     }
     override func awakeFromNib() {
